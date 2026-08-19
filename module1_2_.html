@@ -1,0 +1,280 @@
+
+
+<div id="ai-module" style="font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background:#C6DAE7; color:#1B2A4A; max-width:860px; margin:0 auto; padding:32px 20px 56px; box-sizing:border-box;">
+  <span style="display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; padding:5px 12px; border-radius:999px; margin-bottom:14px; color:#FFFFFF; background:#D3832B;">AI Literacy &middot; Module 1</span>
+  <h1 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:32px; line-height:1.15; margin:0 0 12px 0; color:#1B2A4A;">How Large Language Models Actually Work</h1>
+
+
+
+<!-- Thread connector (decorative, optional) -->
+  <div style="display:flex; align-items:center; gap:12px; margin:8px 0 32px 0; padding:0 4px;">
+    <div style="display:flex; align-items:center; gap:8px; font-size:13px; font-weight:700; letter-spacing:0.03em; white-space:nowrap; color:#00859B;">
+      <span style="color:#00859B; font-size:14px; line-height:1;">&#9679;</span>
+      <span>Read</span>
+    </div>
+    <div style="flex:1; height:2px; background-image:repeating-linear-gradient(to right, #00859B 0 8px, transparent 8px 14px); opacity:0.8;">&nbsp;</div>
+    <div style="display:flex; align-items:center; gap:8px; font-size:13px; font-weight:700; letter-spacing:0.03em; white-space:nowrap; color:#D3832B;">
+      <span>Reflect</span>
+      <span style="color:#D3832B; font-size:14px; line-height:1;">&#9679;</span>
+    </div>
+  </div>
+<!-- ================= SECTION INSTRUCTIONS ================= -->
+<div style="background:#B8DDE1; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+  <span style="display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; padding:5px 12px; border-radius:999px; margin-bottom:14px; color:#FFFFFF; background:#00859B;">Step 1 &mdash; Read</span>
+  <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:0 0 12px 0; color:#1B2A4A;">Basic Definitions</h2>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0;">
+    <strong>Instructions: Please read the following definitions. Be prepared to explain what you learned at the bottom of this page.</strong>
+  </p>
+<p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0;">
+  <strong>Context: </strong>The following definitions are associated with the neccessary foundations required for understanding concepts outlined in this course.
+</p>
+<p></p> 
+  <!-- ================= Generative AI ================= -->
+  <div style="background:#ebe1e8; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:0 0 12px 0; color:#1B2A4A;">Generative AI</h2>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Agentic AI</strong> refers to AI systems designed to act autonomously, perceiving their environment, making decisions, and taking actions to achieve specific goals. These systems often incorporate features like adaptability, goal orientation, and interaction with dynamic environments" (MIT CITE). This approach affords AI a level of independence (agency) to make decisions and act with proactive behavior to complete tasks you have given it. This adaptability, in theory, requires very little human intervention and provides AI with an opportunity to act in real-world situations.
+  </p>
+  </div>
+  
+  <!-- ================= Agentic AI ================= -->
+  <div style="background:#ebe1e8; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:0 0 12px 0; color:#1B2A4A;">Agentic AI</h2>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Agentic AI</strong> refers to AI systems designed to act autonomously, perceiving their environment, making decisions, and taking actions to achieve specific goals. These systems often incorporate features like adaptability, goal orientation, and interaction with dynamic environments" (MIT CITE). This approach affords AI a level of independence (agency) to make decisions and act with proactive behavior to complete tasks you have given it. This adaptability, in theory, requires very little human intervention and provides AI with an opportunity to act in real-world situations.
+  </p>
+  </div>
+  
+  <!-- ================= Ethical AI ================= -->
+  <div style="background:#ebe1e8; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:0 0 12px 0; color:#1B2A4A;">Ethical AI</h2>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Ethical AI</strong> encompasses the development and use of AI systems in a way that aligns with moral principles, societal norms, and regulatory frameworks to ensure responsible and beneficial outcomes" (MIT CITE).
+  </p>
+  </div>
+  
+  <!-- ================= AI Hallucinations ================= -->
+  <div style="background:#ebe1e8; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:0 0 12px 0; color:#1B2A4A;">AI Hallucinations</h2>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>AI Hallucinations</strong> in AI refers to instances where an artificial intelligence system generates information or responses that are incorrect, misleading, or entirely fabricated but presented as factual. This often happens in language models or image generation when the AI produces outputs not supported by the training data or real-world facts" (STANFORD CITE).
+  </p>
+  </div>
+  
+  <!-- ================= AI Bias ================= -->
+  <div style="background:#ebe1e8; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:0 0 12px 0; color:#1B2A4A;">AI Bias</h2>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 10px 0;">
+    Within all data created by every single human in existence there exists some sort of <strong>AI Bias</strong> — this could be due to life experience, cultural precedence, fear, systemic racism, or sexism, to name a few. Regardless of the type, AI tools will predict and produce responses containing these biases, both old and new. Without proper ethical guidelines in data, training practices, and a clear understanding of how an AI model makes its predictive output, we are blind to the reasoning driving potentially harmful outputs.
+  </p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    <strong>EX:</strong> If an AI chatbot optimized for city planning is asked to design the streets of a city, but all the engineering and architecture data it was trained on was authored by professionals known for racist, exclusionary zoning practices, the AI-generated output will contain biased artifacts of a discriminatory practice that keeps one population from accessing parts of a city.
+  </p>
+  </div>
+</div>
+
+
+<!-- ================= Advanced Definitions: SECTION INSTRUCTIONS ================= -->
+<div style="background:#B8DDE1; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <span style="display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; padding:5px 12px; border-radius:999px; margin-bottom:14px; color:#FFFFFF; background:#00859B;">Step 2 &mdash; Read</span>
+  <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:0 0 12px 0; color:#1B2A4A;">Advanced Definitions</h2>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0;">
+    <strong>READ: In this section please read the following definitions of atleast 3 of these terms. Focus specifically on terms that you have either never heard before or terms that you have heard of but do not know what they mean.</strong>
+  </p>
+<p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0;">
+  <strong>Context: </strong>The following definitions are associated with different approaches to AI implementation, capabilities and components that either run "under the hood", lend to its creation, innovation or implementation of AI models used today.</p> 
+
+
+  <!-- ================= Large Language Models ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Large Language Models
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Large Language Models (LLM)</p>
+    <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "...<strong>LLMs</strong> are a subset of large models specifically designed for natural language processing tasks. Based on architectures like transformers, these models are trained on vast amounts of text data to understand, process, and generate human-like language" (MIT CITE). 
+  </p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+  This has allowed AI models to create coherent, context-aware responses to user prompts, which is being used in research, customer service, and content creation (MIT CITE).
+  </p>
+  </details>
+  
+  <!-- ================= Narrow AI ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Narrow AI
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Narrow AI</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Narrow AI</strong>, also known as weak AI, refers to artificial intelligence systems designed to perform a specific task or a limited range of tasks with high efficiency and precision. Unlike general AI, narrow AI is not capable of generalizing its abilities across multiple domains" (MIT CITE). This type of AI is most commonly found in speech recognition tools, recommendation systems, and autonomous vehicles — these are all considered specialized problems.
+  </p>
+  </details>
+  
+  <!-- ================= Symbolic AI ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Symbolic AI
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Symbolic AI</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Symbolic AI</strong> is a paradigm that falls under the umbrella of knowledge-driven AI, focusing specifically on representing and manipulating knowledge using symbols, rules, and formal logic to represent and manipulate knowledge for reasoning and decision-making" (MIT CITE). The purpose of this approach is to facilitate transparency and explainability in AI systems for advancing scientific understanding and trust (MIT CITE).
+  </p>
+  </details>
+  
+  <!-- ================= Artificial General Intelligence ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Artificial General Intelligence
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Artificial General Intelligence</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    This widely used term is often theorized and used in mass marketing campaigns as a sort of promise to shareholders and consumers alike. It is defined as <strong>"AI systems with human-like versatility</strong>, capable of performing a wide range of tasks across various domains with adaptability" (MIT DICTIONARY CITE). I would liken this term to a lofty goal within AI research and design that has a sliding definition — how do we measure human intelligence without limiting it to levels of linear productivity? This raises questions for philosophers, sociologists, and anthropologists alike, not just computer engineers or tech CEOs and their shareholders.
+  </p>
+  </details>
+  
+  <!-- ================= Machine Learning ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Machine Learning
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Machine Learning</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Machine learning</strong> is a subset of AI that uses statistical methods to enable systems to learn from data and improve over time" (MIT CITE). I like to think of this as a data-driven Plinko machine that mimics the pattern recognition our human brains have evolved to do. "Machine learning drives advances in AI by automating learning processes, making it possible to analyze vast datasets and uncover insights across various fields" (MIT CITE). The analysis of vast datasets is the distinction between the capabilities of machine learning implementation and an individual human brain, thus illuminating its immense usefulness.
+  </p>
+  </details>
+  
+  <!-- ================= Neural Networks ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Neural Networks
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Neural Networks</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Neural Networks</strong> are a sub-symbolic machine learning technique modeled after the human brain's structure. They consist of layers of interconnected nodes (neurons) that process data using weights and activation functions to learn patterns and features in the input data." This learning technique is utilized in image recognition, natural language processing, voice recognition, and data synthesis, to name a few. "Their ability to model complex, nonlinear relationships makes them indispensable for solving intricate problems across diverse fields" (MIT CITE).
+  </p>
+  </details>
+  
+  <!-- ================= Deep Learning ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Deep Learning
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Deep Learning</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Deep learning</strong> is a subset of machine learning that uses neural networks to learn patterns from large amounts of data. These models are loosely inspired by biological neural systems and are often called deep neural networks (DNNs). They automatically learn data representations instead of relying on rules programmed for specific tasks" (DATABRICKS CITE).
+  </p>
+  </details>
+  
+  <!-- ================= Deep Neural Networks ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Deep Neural Networks
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Deep Neural Networks (DNNs)</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Deep Neural Networks (DNNs)</strong> are a type of neural network characterized by multiple layers of interconnected neurons, enabling hierarchical learning of features from raw data. Each layer extracts increasingly abstract patterns, making DNNs particularly suited for complex tasks" (MIT CITE). DNNs can be attributed to innovations in modern computer vision, natural language processing, and autonomous systems. This approach affords modern AI systems the ability to model intricate relationships, making it important for many different fields.
+  </p>
+  </details>
+  
+  <!-- ================= Transformers ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Transformers
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Transformers</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "<strong>Transformers</strong> are a type of neural network architecture designed for sequence-to-sequence tasks, leveraging self-attention mechanisms to process input data efficiently. They model relationships within sequences, making them well suited for tasks in natural language processing, speech recognition, and beyond" (MIT CITE).
+  </p>
+  </details>
+  
+  <!-- ================= Natural Language Processing ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Natural Language Processing
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Natural Language Processing (NLP)</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0 0 20px 0;">
+    "...Is a field of AI that focuses on enabling machines to understand, interpret, generate, and interact using human languages" (MIT CITE). This affords AI the ability to analyze spoken or written words and respond in human language. This capability allows everyday people to interact and create with AI assistance. This innovation in computation has transformed the field of computer programming by lowering the barriers to certain skills in writing, coding, etc. More on this later.
+  </p>
+  </details>
+  
+  <!-- ================= Black Box AI ================= -->
+  <details style="background:#C4D6A4; border-radius:14px; padding:20px 24px; margin-bottom:16px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <summary style="font-family:'Space Grotesk','Inter',sans-serif; font-size:18px; font-weight:700; color:#1B2A4A; cursor:pointer;">
+      Black Box AI
+    </summary>
+    <p style="font-weight:700; color:#1B2A4A; font-size:15px; margin:0 0 6px 0;">Black Box AI</p>
+  <p style="font-size:15px; color:#5B6478; line-height:1.6; margin:0;">
+    "...an AI system whose internal workings are a mystery to its users. Users can see the system's inputs and outputs, but they can't see what happens within the AI tool to produce those outputs" (IBM CITE).
+  </p>
+  </details>
+</div>
+
+<!-- ================= SURVEY SECTION ================= -->
+  <div style="background:#FDD26E; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <span style="display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; padding:5px 12px; border-radius:999px; margin-bottom:14px; color:#FFFFFF; background:#D3832B;">Step 3 &mdash; Reflect</span>
+    <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:14px 0 8px 0; color:#1B2A4A;">Tell Us What You Learned</h2>
+    <p style="font-size:15px; color:#5B6478; line-height:1.55; margin:0 0 18px 0;">A quick reflection to check your understanding &mdash; this isn't graded on being "right," just on giving it real thought.</p>
+    <div>
+      <iframe
+        src="https://oregonstate.qualtrics.com/jfe/form/SV_5bFP30z4ig720bs"
+        title="AI Literacy Reflection Survey"
+        style="width:100%; min-height:900px; border:0; border-radius:10px;">
+      </iframe>
+    </div>
+    <p style="font-size:13px; color:#5B6478; text-align:center; margin-top:12px;">Having trouble seeing the form? <a href="https://oregonstate.qualtrics.com/jfe/form/SV_5bFP30z4ig720bs" target="_blank" rel="noopener" style="color:#0F6B6B;">Open it in a new tab</a>.</p>
+  </div>
+
+
+  
+  <!-- Thread connector (decorative, optional) -->
+  <div style="display:flex; align-items:center; gap:12px; margin:8px 0 32px 0; padding:0 4px;">
+    <div style="display:flex; align-items:center; gap:8px; font-size:13px; font-weight:700; letter-spacing:0.03em; white-space:nowrap; color:#00859B;">
+      <span style="color:#00859B; font-size:14px; line-height:1;">&#9679;</span>
+      <span>Watch</span>
+    </div>
+    <div style="flex:1; height:2px; background-image:repeating-linear-gradient(to right, #00859B 0 8px, transparent 8px 14px); opacity:0.8;">&nbsp;</div>
+    <div style="display:flex; align-items:center; gap:8px; font-size:13px; font-weight:700; letter-spacing:0.03em; white-space:nowrap; color:#D3832B;">
+      <span>Reflect</span>
+      <span style="color:#D3832B; font-size:14px; line-height:1;">&#9679;</span>
+    </div>
+  </div>
+
+  <!-- ================= VIDEO Blue 1 Brown LLM Video ================= -->
+  <div style="background:#B8DDE1; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <span style="display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; padding:5px 12px; border-radius:999px; margin-bottom:14px; color:#FFFFFF; background:#00859B;">Step 4 &mdash; Watch</span>
+    <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:14px 0 8px 0; color:#1B2A4A;">How LLMs Work, Explained</h2>
+    <p style="font-size:15px; color:#5B6478; line-height:1.55; margin:0 0 18px 0;">Let's understand what's happening under the hood. Watch the short video below, then share your thoughts in the reflection survey &mdash; it should take about ~10 minutes total.</p>
+    <div style="position:relative; padding-bottom:56.25%; height: 0; overflow:hidden; max-width: 100%;background:#0d1117;">
+      <iframe
+        src="https://www.youtube.com/embed/LPZh9BOjkQs?si=AvOedF1BjNVbwk01&start=0&end=420"
+        title="How LLMs Work"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        style="position:absolute; top:0; left:0; width:100%; height:100%; allowfullscreen="allowfullscreen" width="100%" height="100%" frameborder="0"">
+      </iframe>
+    </div>
+    <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:0 0 16px 0; color:#1B2A4A;">To put it plainly...</h2>
+  <img
+    src="https://github.com/moonau1994/Hoopy-Frood.github.io/blob/moonau1994-patch-3/plinko.gif?raw=true"
+    alt="Describe what the GIF shows"
+    style="display:block; width:100%; max-width:100%; height:auto; border-radius:10px; margin-bottom:12px;">
+  
+  </div>
+
+<!-- ================= SURVEY SECTION ================= -->
+  <div style="background:#FDD26E; border-radius:14px; padding:24px; margin-bottom:28px; border:1px solid rgba(27,42,74,0.08); box-shadow:0 1px 3px rgba(27,42,74,0.06);">
+    <span style="display:inline-flex; align-items:center; gap:8px; font-size:12px; font-weight:700; letter-spacing:0.06em; text-transform:uppercase; padding:5px 12px; border-radius:999px; margin-bottom:14px; color:#FFFFFF; background:#D3832B;">Step 4 &mdash; Reflect</span>
+    <h2 style="font-family:'Space Grotesk','Inter',sans-serif; font-size:20px; margin:14px 0 8px 0; color:#1B2A4A;">Tell Us What You Learned</h2>
+    <p style="font-size:15px; color:#5B6478; line-height:1.55; margin:0 0 18px 0;">A quick reflection to check your understanding &mdash; this isn't graded on being "right," just on giving it real thought.</p>
+    <div>
+      <iframe
+        src="https://oregonstate.qualtrics.com/jfe/form/SV_etlmrKf0zbGuPQO"
+        title="AI Literacy Reflection Survey"
+        style="width:100%; min-height:900px; border:0; border-radius:10px;">
+      </iframe>
+    </div>
+    <p style="font-size:13px; color:#5B6478; text-align:center; margin-top:12px;">Having trouble seeing the form? <a href="https://oregonstate.qualtrics.com/jfe/form/SV_0vrMZqFlOIEjEYm" target="_blank" rel="noopener" style="color:#0F6B6B;">Open it in a new tab</a>.</p>
+  </div>
+
+</div>
